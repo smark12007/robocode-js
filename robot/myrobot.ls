@@ -12,7 +12,7 @@ class MyRobot extends BaseRobot
     @turn_left 90
 
   onHit: !->
-    @yell "Oopsssssssssss!"
+    @yell "Oops!"
 
   onEnemySpot: !->
     @yell "Fire!"
