@@ -3,7 +3,7 @@ importScripts('../base-robot.js')
 class MyRobot extends BaseRobot
 
   onIdle: !->
-    @move_forwards 50
+    @move_forwards 500
     @turn_turret_left 10
     @turn_right 90
 
