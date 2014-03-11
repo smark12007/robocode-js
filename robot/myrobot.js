@@ -5,7 +5,7 @@
   MyRobot = (function(superclass){
     var prototype = extend$((import$(MyRobot, superclass).displayName = 'MyRobot', MyRobot), superclass).prototype, constructor = MyRobot;
     prototype.onIdle = function(){
-      this.move_forwards(100);
+      this.move_forwards(200);
       this.turn_right(70);
     };
     prototype.onWallCollide = function(){
