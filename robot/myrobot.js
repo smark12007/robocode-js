@@ -100,13 +100,13 @@
           return;
         }
         this.turn_turret_left(30);
-        this.turn_left(30);
+        this.turn_left(-30);
         this.move_forwards(Math.random() * 50 + 10);
       }
     };
     prototype.onWallCollide = function(){
       this.move_opposide(10);
-      this.turn_left(90);
+      this.turn_left(-90);
       this.idleCount = 0;
     };
     prototype.onHit = function(){
