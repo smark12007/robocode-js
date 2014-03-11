@@ -14,7 +14,7 @@ LiveScript (Javascript) implementation of Robocode. Original from http://gumuz.n
 Creating a robot is even simpler
 
 ```
-importScripts('base-robot.js')
+importScripts('base-robot.js') 
 
 class TestRobot1 extends BaseRobot
   onIdle: ->
