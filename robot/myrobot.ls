@@ -15,7 +15,7 @@ class MyRobot extends BaseRobot
     @yell "Oops!"
 
   onEnemySpot: !->
-    @yell "Fire!"
+    @yell "Fire! YA"
     @shoot!
 
 tr = new MyRobot("MyRobot")
