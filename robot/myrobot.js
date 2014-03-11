@@ -7,6 +7,8 @@
     prototype.onIdle = function(){
       this.move_forwards(200);
       this.turn_right(70);
+      this.move_forwards(200);
+      this.turn_right(70);
     };
     prototype.onWallCollide = function(){
       this.move_opposide(10);
